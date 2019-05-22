@@ -2,7 +2,7 @@
 
 This site contains code and maps from the 500 Cities Noise Project.
 
-To view the map open this url in your browser: [https://dlab-geo.github.io/dnlproj/](https://dlab-geo.github.io/dnlproj/)
+To view the map open this url in your browser: [https://dlab-geo.github.io/citynoise/](https://dlab-geo.github.io/citynoise/)
 
 
 ## About the Map 

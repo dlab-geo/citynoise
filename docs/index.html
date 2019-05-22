@@ -53,19 +53,19 @@ width: 10px;
 <p>Zoom to: 
 </br>
       <!-- Source: http://personal.tcu.edu/kylewalker/maps/education -->
-      <a href="https://dlab-geo.github.io/dnlproj/index.html#10.72/37.8030/-122.3727">San Francisco</a> | 
-      <a href="https://dlab-geo.github.io/dnlproj/index.html#11.01/34.0807/-118.2724">Los Angeles</a> |
-      <a href="https://dlab-geo.github.io/dnlproj/index.html#11.01/41.8845/-87.6138">Chicago</a> </br> 
-      <a href="https://dlab-geo.github.io/dnlproj/index.html#11.01/32.8065/-97.1496">Dallas-Fort Worth</a> | 
-      <a href="https://dlab-geo.github.io/dnlproj/index.html#11.01/40.7770/-74.0066">New York</a> | 
-      <a href="https://dlab-geo.github.io/dnlproj/index.html#10.86/33.75/-84.416">Atlanta</a> </br>
-      <a href="https://dlab-geo.github.io/dnlproj/index.html">Contiguous USA</a>
+      <a href="https://dlab-geo.github.io/citynoise/index.html#10.72/37.8030/-122.3727">San Francisco</a> | 
+      <a href="https://dlab-geo.github.io/citynoise/index.html#11.01/34.0807/-118.2724">Los Angeles</a> |
+      <a href="https://dlab-geo.github.io/citynoise/index.html#11.01/41.8845/-87.6138">Chicago</a> </br> 
+      <a href="https://dlab-geo.github.io/citynoise/index.html#11.01/32.8065/-97.1496">Dallas-Fort Worth</a> | 
+      <a href="https://dlab-geo.github.io/citynoise/index.html#11.01/40.7770/-74.0066">New York</a> | 
+      <a href="https://dlab-geo.github.io/citynoise/index.html#10.86/33.75/-84.416">Atlanta</a> </br>
+      <a href="https://dlab-geo.github.io/citynoise/index.html">Contiguous USA</a>
     </p>
 </div>
 &nbsp;
 </br>
 <p>
-<em><a href="https://github.com/dlab-geo/dnlproj" target="_blank">About this map</a></em>
+<em><a href="https://github.com/dlab-geo/citynoise" target="_blank">About this map</a></em>
 <p>
 </div>
 
@@ -164,7 +164,7 @@ map.on('load', function() {
    for (let i of mypolydata) {
 	var datanam = i;
 	var layernam = i + "_layer"
-	var datafile = "https://raw.githubusercontent.com/dlab-geo/dnlproj/master/geofiles/" + i + ".geojson";
+	var datafile = "https://raw.githubusercontent.com/dlab-geo/citynoise/master/geofiles/" + i + ".geojson";
 
 	// ADD THE DATA SOURCE
 	map.addSource(datanam, {
